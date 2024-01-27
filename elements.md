@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Elements
-image: assets/images/pic01.jpg
+title: AI Company
+description: 4000+AI
+image: assets/images/aicomp.jpg
 nav-menu: true
 ---
 
@@ -12,15 +13,66 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>AI Startup</h1>
 		</header>
 
 <!-- Content -->
 <h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<style>
+.image-container{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+</style>
+
+<style>
+.image-block{
+	text-align: center;
+	margin: 20px;
+}
+
+.image-description{
+	color: #FF5733;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+
+</style>
+<style>
+.my-image{
+	width: 500px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+</style>
+
+
+<!-- <img src="assets/images/firstgif.gif" alt="Description" class="my-image">
+
+<img src="assets/images/firstgif.gif" alt="Description" class="my-image1"> -->
+
+<div class="image-container">
+	<div class="image-block">
+	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
+	<p class="image-description"> Description of image 1 </p>
+	</div>
+	<div class="image-block">
+	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
+	<p class="image-description"> Description of image 2 </p>
+	</div>
+</div>
+
+
+
+
 <div class="row">
 	<div class="6u 12u$(small)">
-		<h3>Sem turpis amet semper</h3>
+		<p class="indent-text"></p><h3>Sem turpis amet semper</h3>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 	</div>
 	<div class="6u$ 12u$(small)">

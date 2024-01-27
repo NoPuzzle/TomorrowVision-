@@ -1,17 +1,17 @@
 # site settings
 title: Visualize Tommorow
 subtitle: Bringing the future to you
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+email: liu.li20@imperial.ac.uk
+description: hahahaaha <br /> hehehehehe.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: 344 Huxley Building, London, SW7 2BX
+# city: London
+# state: London
+# zip_code: SW7 2BX
+# country: United Kingdom
+phone: (+44) 7410911013
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

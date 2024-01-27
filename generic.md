@@ -1,13 +1,70 @@
 ---
-layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+layout: page
+title: Hopital
+description: AI assistant....
+image: assets/images/hospital.png
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+<!-- Main -->
+<div id="main" class="alt">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>AI Startup</h1>
+		</header>
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+<!-- Content -->
+<h2 id="content">Sample Content</h2>
+<style>
+.image-container{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+</style>
+
+<style>
+.image-block{
+	text-align: center;
+	margin: 20px;
+}
+
+.image-description{
+	color: #FF5733;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+
+</style>
+<style>
+.my-image{
+	width: 500px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}
+</style>
+
+
+<!-- <img src="assets/images/firstgif.gif" alt="Description" class="my-image">
+
+<img src="assets/images/firstgif.gif" alt="Description" class="my-image1"> -->
+
+<div class="image-container">
+	<div class="image-block">
+	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
+	<p class="image-description"> Description of image 1 </p>
+	</div>
+	<div class="image-block">
+	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
+	<p class="image-description"> Description of image 2 </p>
+	</div>
+</div>
+
+

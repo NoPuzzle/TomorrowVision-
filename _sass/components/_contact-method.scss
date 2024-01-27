@@ -4,20 +4,71 @@
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
+.contact-methods-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly between elements */
+    align-items: start;
+    flex-wrap: wrap;
+}
+.contact-method {
+	margin: 0 0 _size(element-margin) 0;
+	padding: 1em;
+	padding-left: 5em;
+	padding-right: 5em;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    text-align: center; /* Center text */
+	position: relative;
+    /* other styles */
+}
+
+
+
 /* Contact Method */
 
-	.contact-method {
-		margin: 0 0 _size(element-margin) 0;
-		padding-left: 3.25em;
+	// .contact-method {
+	// 	margin: 0 0 _size(element-margin) 0;
+	// 	padding-left: 3.25em;
+	// 	position: relative;
+
+	// 	.icon {
+	// 		left: 0;
+	// 		position: absolute;
+	// 		top: 0;
+	// 	}
+
+	// 	h3 {
+	// 		margin: 0 0 (_size(element-margin) * 0.25) 0;
+	// 	}
+	// }
+
+
+	// .contact-method {
+	// 	flex: 1; /* Each item will take up equal space */
+	// 	margin: 0 15px; /* Adjust margins as needed for spacing */
+	// 	padding-left: 3.25em;
+	// 	position: relative;
+	// }
+
+	
+
+	// .contact-method {
+	// 	margin: 0 0 _size(element-margin) 0;
+	// 	padding-left: 3.25em;
+	// 	position: relative;
+	// 	flex: 0 0 auto; /* Flex item does not grow or shrink */
+	// 	width: 33%; /* Example width, adjust as needed */
+	// }
+	
+	.contact-method .icon {
+		left: 0;
 		position: relative;
-
-		.icon {
-			left: 0;
-			position: absolute;
-			top: 0;
-		}
-
-		h3 {
-			margin: 0 0 (_size(element-margin) * 0.25) 0;
-		}
+		top: 0;
 	}
+	
+	.contact-method h3 {
+		margin: 0 0 (_size(element-margin) * 0.25) 0;
+	}
+	
