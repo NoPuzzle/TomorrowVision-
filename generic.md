@@ -17,7 +17,7 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
+<h2 id="content"> Alzheimer Early Diagnosis</h2>
 <style>
 .image-container{
 	display: flex;
@@ -59,7 +59,7 @@ nav-menu: true
 <div class="image-container">
 	<div class="image-block">
 	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
-	<p class="image-description"> Description of image 1 </p>
+	<p class="image-description"> Case study: Bayesian Confidence Distribution Visualization for Alzheimer Early Diagnosis </p>
 	</div>
 </div>
 

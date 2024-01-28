@@ -17,7 +17,7 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
+<h2 id="content">COVID-19 Diagnosis</h2>
 <style>
 .image-container{
 	display: flex;
@@ -42,7 +42,7 @@ nav-menu: true
 </style>
 <style>
 .my-image{
-	width: 1200px;
+	width: 800px;
 	height: auto;
 	display: block;
 	margin-left: auto;
@@ -57,8 +57,16 @@ nav-menu: true
 <img src="assets/images/firstgif.gif" alt="Description" class="my-image1"> -->
 
 <div class="image-container">
+<div class="image-block">
+	<img src="assets/images/startup2.gif" alt="Description" class="my-image">
+	<p class="image-description"> Case study: COVID-19 Diagnosis</p>
+	</div>
+</div>
+
+
+<div class="image-container">
 	<div class="image-block">
-	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
+	<img src="assets/images/startup.png" alt="Description" class="my-image">
 	<p class="image-description"> Description of image 1 </p>
 	</div>
 </div>
@@ -66,7 +74,9 @@ nav-menu: true
 
 <div class="image-container">
 <div class="image-block">
-	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
+	<img src="assets/images/startup1.png" alt="Description" class="my-image">
 	<p class="image-description"> Description of image 2 </p>
 	</div>
 </div>
+
+
