@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hopital
+title: Hospital
 description: AI assistant....
 image: assets/images/hospital.png
 nav-menu: true
@@ -42,8 +42,8 @@ nav-menu: true
 </style>
 <style>
 .my-image{
-	width: 500px;
-	height: 300px;
+	width: 1200px;
+	height: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -61,10 +61,12 @@ nav-menu: true
 	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
 	<p class="image-description"> Description of image 1 </p>
 	</div>
-	<div class="image-block">
+</div>
+
+
+<div class="image-container">
+<div class="image-block">
 	<img src="assets/images/firstgif.gif" alt="Description" class="my-image">
 	<p class="image-description"> Description of image 2 </p>
 	</div>
 </div>
-
-
